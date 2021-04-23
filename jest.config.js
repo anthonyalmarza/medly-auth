@@ -11,15 +11,15 @@ module.exports = {
     collectCoverageFrom: ['<rootDir>/src/**/*.ts', '!<rootDir>/src/**/index.ts', '!<rootDir>/src/server.ts'],
     coverageDirectory: '<rootDir>/coverage/',
     moduleFileExtensions: ['ts', 'js'],
-    roots: ['<rootDir>/src/'],
+    roots: ['<rootDir>/'],
     rootDir: './',
     setupFiles: ['dotenv/config'],
     testEnvironment: 'node',
     testMatch: ['**/*.(spec|test).ts'],
     verbose: true,
     moduleNameMapper: {
-        '^@routes(.*)$': '<rootDir>/src/routes$1',
-        '^@middleware(.*)$': '<rootDir>/src/middleware$1'
+        '^@routes(.*)$': '<rootDir>/tests/routes$1',
+        '^@middleware(.*)$': '<rootDir>/tests/middleware$1'
     },
     transform: {
         '^.+\\.ts$': 'ts-jest'

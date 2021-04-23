@@ -1,6 +1,6 @@
 import OktaJwtVerifier from '@okta/jwt-verifier';
 import { NextFunction, Request, Response } from 'express';
-import { verifyToken } from './verifyToken';
+import { verifyToken } from '../src/middleware';
 
 jest.mock('@okta/jwt-verifier');
 
