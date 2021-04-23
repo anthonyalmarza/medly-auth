@@ -1,4 +1,6 @@
-# express-typescript-boilerplate
+# Medly - User management flow
+
+> Just an incomplete example of signup
 
 ## Steps to run locally
 
