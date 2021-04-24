@@ -9,8 +9,6 @@ const router = Router();
 
 router.get('/healthCheck', healthCheck);
 
-// userId, created, passwordHash, lastedLogin
-
 /** create user endpoint */
 router.post(
     'signup',
